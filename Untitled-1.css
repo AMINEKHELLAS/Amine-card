@@ -1,0 +1,43 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://th.bing.com/th/id/R.a23e2dcdd3de73def6ddbd3cae1742c6?rik=Qp5z6JrTCMtjVg&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f04%2f06%2f338054-landscape-Sun.jpg&ehk=SsN0SMy0iAXyYPKSGIUJc1FqWGO2tx3k%2fQngJQj%2flPs%3d&risl=&pid=ImgRaw&r=0"); no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  div.profile-card{
+    background-color: hsla(0, 0%, 100%, 0.5);
+    width: 480px;
+    border-radius: 3%;
+    box-shadow: hsla(0, 0%, 0%, .8) 7px 7px 60px;
+    font-family: Playfair display;
+    text-align: center;
+    }
+  
+  img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -10%;
+    }
+   .content{
+     border-top: 1px solid hsla(0, 0%, 30%, .8);
+     padding: 10% 3%;
+     margin-top: 3%;
+     font-size: 1.1em;
+    }
+  
+  .head, .about{
+    margin-bottom: 10%;
+   }
+
+ul {
+  list-style: none;
+ }
